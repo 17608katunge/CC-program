@@ -1,0 +1,10 @@
+//program to calculate simple interest
+#include<stdio.h>
+int main()
+{
+float P,R,T,SI;
+printf("enter p,r,and t value");
+  scanf("%f%f%f",&P,&R,&T);
+  SI=(P*R*T)/100;
+  printf("simple interest=%7.2f", SI);
+  return 0; }
